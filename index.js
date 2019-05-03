@@ -28,6 +28,7 @@ function arr2Obj(arr) {
 /**
  * 摩点请求参数计算
  * @param { object } query: 请求参数
+ * @return { string }
  */
 function modianQuerySign(query) {
   const arr = sortBy(obj2Arr(query), ['key']); // 排序
